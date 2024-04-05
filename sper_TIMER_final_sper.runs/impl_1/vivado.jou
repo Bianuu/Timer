@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2021.2.1 (64-bit)
+# SW Build 3414424 on Sun Dec 19 10:57:22 MST 2021
+# IP Build 3405791 on Sun Dec 19 15:54:35 MST 2021
+# Start of session at: Wed May 25 23:28:56 2022
+# Process ID: 46240
+# Current directory: E:/Aplicatii/Vivado/PROIECTE/sper_TIMER_final_sper/sper_TIMER_final_sper.runs/impl_1
+# Command line: vivado.exe -log top_TIMER.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source top_TIMER.tcl -notrace
+# Log file: E:/Aplicatii/Vivado/PROIECTE/sper_TIMER_final_sper/sper_TIMER_final_sper.runs/impl_1/top_TIMER.vdi
+# Journal file: E:/Aplicatii/Vivado/PROIECTE/sper_TIMER_final_sper/sper_TIMER_final_sper.runs/impl_1\vivado.jou
+# Running On: FabiansLaptop, OS: Windows, CPU Frequency: 3302 MHz, CPU Physical cores: 4, Host memory: 16856 MB
+#-----------------------------------------------------------
+source top_TIMER.tcl -notrace

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1653510500" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/TIMER.dcp">
+  <File Type="PA-TCL" Name="top_TIMER.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="top_TIMER_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="top_TIMER_reports.tcl"/>
+  <File Type="RDS-RDS" Name="top_TIMER.vds"/>
+  <File Type="RDS-UTIL" Name="top_TIMER_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="top_TIMER_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="top_TIMER.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="top_TIMER_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="top_TIMER_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/ProiectPSN_Timer/Afisor.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/FABIAN/Downloads/ProiectPSN_Timer/ProiectPSN_Timer/Afisor.vhd"/>
+        <Attr Name="ImportTime" Val="1652274898"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ProiectPSN_Timer/Debouncer.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/FABIAN/Downloads/ProiectPSN_Timer/ProiectPSN_Timer/Debouncer.vhd"/>
+        <Attr Name="ImportTime" Val="1652274899"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ProiectPSN_Timer/Decodificator.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/FABIAN/Downloads/ProiectPSN_Timer/ProiectPSN_Timer/Decodificator.vhd"/>
+        <Attr Name="ImportTime" Val="1652274899"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Div_10Hz.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ProiectPSN_Timer/Div_sec.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/FABIAN/Downloads/ProiectPSN_Timer/ProiectPSN_Timer/Div_sec.vhd"/>
+        <Attr Name="ImportTime" Val="1652274899"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ProiectPSN_Timer/Mux2.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/FABIAN/Downloads/ProiectPSN_Timer/ProiectPSN_Timer/Mux2.vhd"/>
+        <Attr Name="ImportTime" Val="1652274899"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ProiectPSN_Timer/Mux_afisor.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/FABIAN/Downloads/ProiectPSN_Timer/ProiectPSN_Timer/Mux_afisor.vhd"/>
+        <Attr Name="ImportTime" Val="1652274899"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ProiectPSN_Timer/Num_mod_10.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/FABIAN/Downloads/ProiectPSN_Timer/ProiectPSN_Timer/Num_mod_10.vhd"/>
+        <Attr Name="ImportTime" Val="1652274899"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ProiectPSN_Timer/Num_mod_6.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/FABIAN/Downloads/ProiectPSN_Timer/ProiectPSN_Timer/Num_mod_6.vhd"/>
+        <Attr Name="ImportTime" Val="1652274899"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ProiectPSN_Timer/Numarator_complet.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/FABIAN/Downloads/ProiectPSN_Timer/ProiectPSN_Timer/Numarator_complet.vhd"/>
+        <Attr Name="ImportTime" Val="1652274899"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ProiectPSN_Timer/Numarator_selectii.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/FABIAN/Downloads/ProiectPSN_Timer/ProiectPSN_Timer/Numarator_selectii.vhd"/>
+        <Attr Name="ImportTime" Val="1652274899"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ProiectPSN_Timer/Selectii_divizor.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/FABIAN/Downloads/ProiectPSN_Timer/ProiectPSN_Timer/Selectii_divizor.vhd"/>
+        <Attr Name="ImportTime" Val="1652274899"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ProiectPSN_Timer/Unitate_de_control.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/FABIAN/Downloads/ProiectPSN_Timer/ProiectPSN_Timer/Unitate_de_control.vhd"/>
+        <Attr Name="ImportTime" Val="1652274899"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ProiectPSN_Timer/TOP_LVL.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/FABIAN/Downloads/ProiectPSN_Timer/ProiectPSN_Timer/TOP_LVL.vhd"/>
+        <Attr Name="ImportTime" Val="1652274899"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="top_TIMER"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/constrangeri.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/constrangeri.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/TIMER.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2021"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>
